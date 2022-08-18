@@ -483,6 +483,8 @@ a {
 
 .footer-info {
   display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -519,12 +521,6 @@ a {
 .phone-number-footer {
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--transition);
-}
-
-.footer-right-side {
-  padding-top: 12px;
-  margin-left: 70px;
-  margin-right: 93px;
 }
 
 .invitation {
@@ -796,6 +792,10 @@ a {
   margin-bottom: 10px;
 }
 
+.modal-form-field-text {
+  margin-bottom: 20px;
+}
+
 .placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
@@ -857,11 +857,11 @@ a {
 
 .modal-form-chek-desc {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
-  margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -953,10 +953,6 @@ a {
   padding-left: 28px;
   padding-right: 28px;
   transition: color var(--transition);
-}
-
-.footer-form {
-  padding-top: 20px;
 }
 
 .modal-form-footer {
