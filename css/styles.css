@@ -846,13 +846,15 @@ a {
   width: 16px;
   height: 15px;
   cursor: pointer;
-  background-image: url(/images/chek.svg);
   margin-right: 7px;
+  border: 2px solid var(--primary-text-color);
 }
 
 .modal-form-chek:checked + .modal-form-chek-desc::before {
+  background-image: url(../images/chek.svg);
   background-color: var(--accent-color);
-  background-image: url(/images/check_icon.svg);
+  border: 2px solid var(--accent-color);
+  background-repeat: no-repeat;
 }
 
 .modal-form-chek-desc {
